@@ -1,0 +1,58 @@
+.products_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+}
+.item_container{
+  height: 70vh;
+  margin: auto;
+}
+
+.single_prod_box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+.product_details_box {
+  height: 40%;
+  width: 100%;
+}
+
+/* Kids Section CSS */
+.container {
+  width: 100%;
+}
+
+/* Medium Screen */
+@media only screen and (max-width: 1007px) {
+  .products_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .item_container{
+    width: 60%;
+    margin: auto;
+    height: 60vh;
+  }
+
+}
+
+/* Small Screen */
+@media only screen and (max-width: 640px) {
+  .products_container {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 1rem;
+  }
+  .single_prod_box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .item_container{
+    width: 50%;
+    margin: auto;
+    height: 60vh;
+  }
+}

@@ -1,0 +1,47 @@
+.container {
+  margin: 2rem;
+  padding: 0rem 4rem;
+}
+.payment_card {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+.payment_box1{
+  width: 100%;
+}
+.payment_box2{
+  width: 100%;
+}
+
+/* Medium Screen */
+@media only screen and (max-width: 1007px) {
+  .payment_card {
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  .payment_box1{
+    width: 80%;
+  }
+  .payment_box2{
+    width: 80%;
+    margin-top: 2rem;
+  }
+}
+
+/* Small Screen */
+@media only screen and (max-width: 640px) {
+  .payment_card {
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  .payment_box1{
+    width: 100%;
+  }
+  .payment_box2{
+    width: 100%;
+    margin-top: 4rem;
+  }
+}

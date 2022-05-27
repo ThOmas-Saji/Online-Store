@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  margin: 1rem;
+}
+
+/* Medium Screen */
+@media only screen and (max-width: 1007px) {
+}
+
+/* Small Screen */
+@media only screen and (max-width: 640px) {
+}

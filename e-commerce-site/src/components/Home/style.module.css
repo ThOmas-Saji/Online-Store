@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.main_body_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.offers_container {
+  padding: 0.5rem;
+}
+
+.sidebar_buttons {
+  width: 10%;
+}
+
+/* Medium Screen */
+@media only screen and (max-width: 1007px) {
+  .main_body_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+/* Small Screen */
+@media only screen and (max-width: 640px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main_body_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .side_bar_box {
+    height: 10vh;
+  }
+  .sidebar_buttons {
+    width: 20%;
+  }
+}

@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+.link_tag_style{
+  text-decoration: none;
+  color: rgb(64, 59, 59);
+}
+
+/* Medium Screen */
+@media only screen and (max-width:1007px) {
+  
+}
+
+/* Small Screen */
+@media only screen and (max-width:640px ) {
+  
+}

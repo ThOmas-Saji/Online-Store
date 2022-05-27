@@ -1,0 +1,38 @@
+.container{
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  position: fixed;
+  z-index: 3;
+}
+.site_name {
+  text-align: center;
+  width: 65%;
+}
+.cart_icon {
+  color: rgb(229, 18, 28);
+}
+
+.user_Details {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.user_Details_active {
+  border: 1px solid black;
+  width: 15ch;
+  height: 25vh;
+  z-index: 1;
+  opacity: 1;
+  transform: translate(-80%, 45%);
+  position: fixed;
+}
+
+/* Medium Screen */
+@media only screen and (max-width: 1007px) {
+}
+
+/* Small Screen */
+@media only screen and (max-width: 640px) {
+}

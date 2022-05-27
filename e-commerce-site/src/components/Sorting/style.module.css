@@ -1,0 +1,14 @@
+.sort_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin: 1rem 0rem;
+}
+
+/* Medium Screen */
+@media only screen and (max-width: 1007px) {
+}
+
+/* Small Screen */
+@media only screen and (max-width: 640px) {
+}
